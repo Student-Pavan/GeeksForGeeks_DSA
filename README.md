@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Data+Structures+%26+Algorithms+Repository;GeeksForGeeks+Problem+Solutions;Java+%7C+DSA+%7C+Problem+Solving;Consistency+%2B+Discipline+%3D+Growth+🔥" />
+
 
 <br><br>
 
