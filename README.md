@@ -129,18 +129,11 @@ Long Term Goal:
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Student-Pavan&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Student-Pavan&theme=react-dark&hide_border=true&area=true" width="100%" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Arrays-Completed-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Strings-In%20Progress-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Trees-Learning-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Graphs-Improving-purple?style=for-the-badge" />
-
-<br><br>
-
-<img src="https://progress-bar.xyz/80/?title=DSA%20Progress&width=600" />
+<img src="https://img.shields.io/badge/DSA%20Progress-80%25-success?style=for-the-badge&logo=github" />
 
 </div>
 
