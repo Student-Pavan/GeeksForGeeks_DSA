@@ -116,6 +116,7 @@ Long Term Goal:
 ### “Code. Practice. Improve. Repeat.” 🚀
 
 </div>
+---
 ## 📊 Dynamic DSA Progress
 
 <div align="center">
@@ -140,6 +141,7 @@ Long Term Goal:
 <img src="https://progress-bar.xyz/80/?title=DSA%20Progress&width=600" />
 
 </div>
+
 ---
 
 # ⭐ Support
