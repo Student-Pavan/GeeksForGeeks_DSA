@@ -116,7 +116,30 @@ Long Term Goal:
 ### “Code. Practice. Improve. Repeat.” 🚀
 
 </div>
+## 📊 Dynamic DSA Progress
 
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Student-Pavan&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+
+<img src="https://streak-stats.demolab.com?user=Student-Pavan&theme=tokyonight&hide_border=true" width="48%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Student-Pavan&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Arrays-Completed-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Strings-In%20Progress-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Trees-Learning-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Graphs-Improving-purple?style=for-the-badge" />
+
+<br><br>
+
+<img src="https://progress-bar.xyz/80/?title=DSA%20Progress&width=600" />
+
+</div>
 ---
 
 # ⭐ Support
