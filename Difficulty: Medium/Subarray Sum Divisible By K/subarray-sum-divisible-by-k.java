@@ -1,27 +1,24 @@
-// User function Template for Java
-
-import java.util.*;
-
 class Solution {
     public int subCount(int[] arr, int k) {
-       int n = arr.length, res = 0;
-        Map<Integer, Integer> prefCnt = new HashMap<>();
-        int sum = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
 
-        for (int i = 0; i < n; i++) {
+        long prefixSum = 0;
+        int count = 0;
 
-            sum = ((sum + arr[i]) % k + k) % k;
+        for (int num : arr) {
+            prefixSum += num;
 
-            if (sum == 0)
-                res += 1;
+            int rem = (int)(prefixSum % k);
+            if (rem < 0)
+                rem += k;
 
-            
-            res += prefCnt.getOrDefault(sum, 0);
+            if (map.containsKey(rem))
+                count += map.get(rem);
 
-            prefCnt.put(sum, prefCnt.getOrDefault(sum, 0) + 1);
+            map.put(rem, map.getOrDefault(rem, 0) + 1);
         }
-        return res;
-        
+
+        return count;
     }
-        
 }
