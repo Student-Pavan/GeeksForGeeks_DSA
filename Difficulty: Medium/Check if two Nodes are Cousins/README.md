@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/check-if-two-nodes-are-cousins/1">Check if two Nodes are Cousins</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given the <strong>root</strong> of a binary tree with distinct node values and two integers <strong>a </strong>and <strong>b</strong>, check whether the nodes with values a and b are cousins.</span></p>
+<p><span style="font-size: 18px;"><strong>Note: </strong>Two nodes are cousins if they are at the same depth but have different parents.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [1, 2, 3], a = 2, b = 3
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/930599/Web/Other/blobid0_1783418934.png" width="133" height="77"> <strong>
+Output: </strong>false<br><strong>Explanation</strong>: Here, nodes 2 and 3 are at the same level but have same parent nodes.</span></pre>
+<pre><span style="font-size: 18px;"><span style="font-size: 14pt;"><strong>Input: </strong>root = [1, 2, 3, 5, N, N, 4], a = 5, b = 4
+<strong><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/930599/Web/Other/blobid1_1783418952.png" width="201" height="129"> </strong><strong>
+Output: </strong>true<strong>
+Explanation: </strong></span><span style="font-size: 18px;"><span style="font-size: 14pt;">Here, nodes 5 and 4 are at the same level and have different parent nodes. Hence, they both are cousins. </span><br></span></span></pre>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">root = [10, 5, 15, 3, 7, 12, 20], a = 7, b = 12
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/930599/Web/Other/blobid2_1783419142.png" width="220" height="141"></span><strong style="font-size: 18px;">
+Output: </strong><span style="font-size: 18px;">true</span><strong style="font-size: 18px;">
+Explanation: </strong><span style="font-size: 18px;">Here, nodes 7 and 12 are at the same level and have different parent nodes. Hence, they both are cousins. </span></span></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ number of nodes ≤ 10<sup>5<br></sup></span><span style="font-size: 18px;">1 ≤ node-&gt;data ≤ 10<sup>5<br></sup>1 ≤ a, b ≤ 10<sup>5</sup><sup><br></sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>DFS</code>&nbsp;<code>Arrays</code>&nbsp;<code>BFS</code>&nbsp;
