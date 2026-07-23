@@ -15,24 +15,33 @@ class Node {
 class Solution {
     public ArrayList<Integer> rightView(Node root) {
         // code here
-        ArrayList<Integer> list = new  ArrayList<>();
+       Queue<Node> queue = new LinkedList<>();
         
-        rightTravaersal(root,list,0);
-        
-        return list;
-         
-    }
-    
-    private void rightTravaersal(Node root, ArrayList<Integer> list, int level){
-        
+        ArrayList<Integer> res = new ArrayList<>();
         
         if(root == null)
-            return;
-            
-        if(level == list.size())
-            list.add(root.data);
+            return res;
         
-        rightTravaersal(root.right, list, level + 1);
-        rightTravaersal(root.left, list, level + 1);
+        queue.add(root);
+        
+        while(!queue.isEmpty()){
+            
+            int size = queue.size();
+            
+            for(int i = 0; i < size; i++){
+                Node curr = queue.poll();
+                
+                if(i == size - 1)
+                    res.add(curr.data);
+                    
+                if(curr.left != null)
+                    queue.add(curr.left);
+                    
+                if(curr.right != null)
+                    queue.add(curr.right);
+            }
+        }
+        return res;
+        
     }
 }
