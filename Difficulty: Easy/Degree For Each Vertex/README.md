@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/degree-of-each-vertices-in-a-graph/1">Degree For Each Vertex</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt; font-family: 'andale mono', monospace;">Given a directed graph with <strong>V&nbsp;</strong>vertices numbered from 0 to V-1 and&nbsp;<strong>E</strong>&nbsp;edges, represented as a 2D array&nbsp;<strong>edges[][]</strong>, where each entry&nbsp;<strong>edges[i] = [u, v]</strong> denotes a directed edge from vertices <strong>u</strong> to <strong>v</strong>.&nbsp;determine the <strong>in-degree</strong> (number of incoming edges) and <strong>out-degree</strong> (number of outgoing edges) for every vertex in the graph.</span></p>
+<p><span style="font-size: 14pt;"><strong style="font-family: 'andale mono', monospace;">Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><span style="font-family: 'andale mono', monospace;"><strong>Input:</strong><span style="font-family: andale mono, monospace;"> V = 4, edges[][] = [[0, 1], [0, 3], [1, 0], [2, 0], [3, 0], [3, 2]]<br> &nbsp; &nbsp;<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/913799/Web/Other/blobid0_1761636440.webp" width="311" height="257"><br><strong>Output: </strong>[[3, 2], [1, 1], [1, 1], [1, 2]] <br></span></span><span style="font-family: 'andale mono', monospace;"><span style="font-family: andale mono, monospace;"><strong>Explanation: <br></strong>Vertex 0 has 3 incoming and 2 outgoing edges.
+Vertex 1 has 1 incoming and 1 outgoing edges.
+Vertex 2 has 1 incoming and 1 outgoing edges.
+Vertex 3 has 1 incoming and 2 outgoing edges.<br></span></span></span></pre>
+<pre><span style="font-size: 14pt; font-family: 'andale mono', monospace;"><strong>Input:</strong> V = 5, edges[][] = [[0, 1], [0, 3], [1, 2], [2, 4], [3, 4], [4, 1]]<br> &nbsp; &nbsp;<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/913799/Web/Other/blobid1_1761566769.webp" width="313" height="246"><br><strong>Output: </strong>[[0, 2], [2, 1], [1, 1], [1, 1], [2, 1]]
+<strong>Explanation: <br></strong>Vertex 0 has 0 incoming and 2 outgoing edges.
+Vertex 1 has 2 incoming and 1 outgoing edges.
+Vertex 2 has 1 incoming and 1 outgoing edges.
+Vertex 3 has 1 incoming and 1 outgoing edges.
+Vertex 4 has 2 incoming and 1 outgoing edges.</span></pre>
+<p><span style="font-size: 14pt; font-family: 'andale mono', monospace;"><strong>Constraints:</strong><br>1 ≤ V, E ≤ 10<sup>6</sup><br>0 ≤ edges[i][0], edges[i][1] &lt; V&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;
